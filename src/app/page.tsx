@@ -281,7 +281,7 @@ export default function Home() {
               <h3 className="text-2xl font-bold text-white mb-6">Get a Quote</h3>
               {submitStatus === 'success' && (
                 <div className="mb-4 p-4 bg-green-600 text-white rounded-lg">
-                  ✅ Message sent successfully! We'll get back to you soon.
+                  ✅ Message sent successfully! We&apos;ll get back to you soon.
                 </div>
               )}
               {submitStatus === 'error' && (
